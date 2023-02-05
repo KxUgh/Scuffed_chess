@@ -13,7 +13,7 @@ int main(){
 
     
     Board board(sf::Vector2f(800,800));
-    board.setPosition("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
+    board.loadPosition();
     
     
     while(window.isOpen()){

@@ -31,7 +31,7 @@ void Board::draw(sf::RenderTarget& target, sf::RenderStates states) const{
     }
 }
 
-void Board::setPosition(std::string FEN){
+void Board::loadPosition(std::string FEN){
 
     int currX=0;
     int currY=0;
